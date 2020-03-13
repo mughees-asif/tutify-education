@@ -123,7 +123,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Tutrify 
+                          Tutify 
                         </Typography>
                       </Box>
                       <div>

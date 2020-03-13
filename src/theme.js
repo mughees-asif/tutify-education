@@ -1,8 +1,8 @@
 import { createMuiTheme, responsiveFontSizes } from "@material-ui/core";
 
 // colors
-const primary = "#b3294e";
-const secondary = "#4829B2";
+const primary = "#81c784";
+const secondary = "#9ccc65";
 const black = "#343a40";
 const darkBlack = "rgb(36, 40, 44)";
 const background = "#f5f5f5";
@@ -11,7 +11,7 @@ const warningMain = "rgba(253, 200, 69, .5)";
 const warningDark = "rgba(253, 200, 69, .7)";
 
 // border
-const borderWidth = 2;
+const borderWidth = 0.5;
 const borderColor = "rgba(0, 0, 0, 0.13)";
 
 // breakpoints
@@ -40,7 +40,7 @@ const theme = createMuiTheme({
     // Used to shift a color's luminance by approximately
     // two indexes within its tonal palette.
     // E.g., shift from Red 500 to Red 300 or Red 700.
-    tonalOffset: 0.2,
+    tonalOffset: 2,
     background: {
       default: background
     },
