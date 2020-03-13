@@ -32,7 +32,7 @@ const styles = theme => ({
   },
   brandText: {
     fontFamily: "'Baloo Bhaijaan', cursive",
-    fontWeight: 600
+    fontWeight: 500
   },
   noDecoration: {
     textDecoration: "none !important"

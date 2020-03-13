@@ -17,7 +17,7 @@ import WaveBorder from "../../../shared/components/WaveBorder";
 
 const styles = theme => ({
   extraLargeButtonLabel: {
-    fontSize: theme.typography.body1.fontSize,
+    fontSize: theme.typography.h6.fontSize,
     [theme.breakpoints.up("sm")]: {
       fontSize: theme.typography.h6.fontSize
     }
@@ -132,7 +132,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Connecting people with a brighter future
+                            The future of online tuition
                           </Typography>
                         </Box>
                         <Button
@@ -142,9 +142,9 @@ function HeadSection(props) {
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
                           // Connect to Login
-                          // href="https://github.com/dunky11/react-saas-template"
+                          // href="#features"
                         >
-                          Get started!
+                          Learn more!
                         </Button>
                       </div>
                     </Box>
@@ -166,7 +166,7 @@ function HeadSection(props) {
       </div>
       <WaveBorder
         upperColor={theme.palette.secondary.main}
-        lowerColor="#FFFFFF"
+        lowerColor="#000000"
         className={classes.waveBorder}
         animationNegativeDelay={2}
       />

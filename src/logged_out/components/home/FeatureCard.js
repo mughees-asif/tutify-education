@@ -41,10 +41,10 @@ function FeatureCard(props) {
   return (
     <Fragment>
       <div
-        // We will set color and fill here, due to some prios complications
+        // We will set color and fill here, due to some prior complications
         className={classes.iconWrapper}
         style={{
-          color: color,
+          color: "#000000",
           backgroundColor: shadeColor(color, 0.5),
           fill: color
         }}

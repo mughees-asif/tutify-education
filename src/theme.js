@@ -1,7 +1,7 @@
 import { createMuiTheme, responsiveFontSizes } from "@material-ui/core";
 
 // colors
-const primary = "#81c784";
+const primary = "#9ccc65";
 const secondary = "#9ccc65";
 const black = "#343a40";
 const darkBlack = "rgb(36, 40, 44)";
@@ -40,7 +40,7 @@ const theme = createMuiTheme({
     // Used to shift a color's luminance by approximately
     // two indexes within its tonal palette.
     // E.g., shift from Red 500 to Red 300 or Red 700.
-    tonalOffset: 2,
+    tonalOffset: 0.2,
     background: {
       default: background
     },
