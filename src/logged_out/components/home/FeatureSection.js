@@ -52,7 +52,7 @@ const features = [
 function FeatureSection(props) {
   const { width } = props;
   return (
-    <div style={{ backgroundColor: "#FFFFFF" }} align="center">
+    <div style={{ backgroundColor: "#000000" }}>
       <div className="container-fluid lg-p-top">
         <Typography variant="h2" align="center" className="lg-mg-bottom">
           Features
@@ -62,8 +62,9 @@ function FeatureSection(props) {
             {features.map(element => (
               <Grid
                 item
-                xs={6}
-                md={4}
+                xs={12}
+                sm={6}
+                lg={3}
                 data-aos="zoom-in-up"
                 data-aos-delay={
                   isWidthUp("md", width) ? element.mdDelay : element.smDelay

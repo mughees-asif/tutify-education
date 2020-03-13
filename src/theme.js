@@ -43,7 +43,6 @@ const theme = createMuiTheme({
     tonalOffset: 0.2,
     background: {
       default: background,
-      color: black
     },
     spacing
   },
