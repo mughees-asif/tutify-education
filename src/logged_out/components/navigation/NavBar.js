@@ -90,7 +90,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-              rify
+              ify
             </Typography>
           </div>
           <div>
