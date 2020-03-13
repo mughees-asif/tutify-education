@@ -15,7 +15,7 @@ const features = [
     color: "#4a148c",
     headline: "Online Classroom",
     text:
-      "Complete academic platform offering one-to-one or classroom study with upto 2 other students!",
+      "Complete academic platform offering one-to-one or classroom study with upto 2 other students.",
     icon: <ComputerIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
@@ -52,9 +52,9 @@ const features = [
 function FeatureSection(props) {
   const { width } = props;
   return (
-    <div style={{ backgroundColor: "#FFFFFF" }}>
+    <div style={{ backgroundColor: "#FFFFFF" }} align="center">
       <div className="container-fluid lg-p-top">
-        <Typography variant="h2" font-align="center" className="lg-mg-bottom">
+        <Typography variant="h2" align="center" className="lg-mg-bottom">
           Features
         </Typography>
         <div className="container-fluid">

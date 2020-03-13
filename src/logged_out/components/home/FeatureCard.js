@@ -46,15 +46,17 @@ function FeatureCard(props) {
         style={{
           color: "#000000",
           backgroundColor: shadeColor(color, 0.5),
-          fill: color
+          textColor: "#000000",
+          fill: color,
+          align: "center"
         }}
       >
         {Icon}
       </div>
-      <Typography variant="h5" paragraph>
+      <Typography variant="h5">
         {headline}
       </Typography>
-      <Typography variant="body1" color="textSecondary">
+      <Typography variant="body1" color="#FFFFFF">
         {text}
       </Typography>
     </Fragment>

@@ -49,7 +49,7 @@ function PricingSection(props) {
   const { width, classes } = props;
   return (
     <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
-      <Typography variant="h3" align="center" className="lg-mg-bottom">
+      <Typography variant="h3" align="center" className="lg-mg-bottom" style={{ backgroundColor: "#FFFFFF" }}>
         Pricing
       </Typography>
       <div className={classNames("container-fluid", classes.containerFix)}>
