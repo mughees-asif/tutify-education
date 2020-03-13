@@ -12,7 +12,7 @@ const warningDark = "rgba(253, 200, 69, .7)";
 
 // border
 const borderWidth = 0.5;
-const borderColor = "rgba(0, 0, 0, 0.13)";
+const borderColor = "rgba(0, 0, 0, 0.12)";
 
 // breakpoints
 const xl = 1920;
@@ -28,6 +28,7 @@ const theme = createMuiTheme({
   palette: {
     primary: { main: primary },
     secondary: { main: secondary },
+    textColor: { main: background},
     common: {
       black,
       darkBlack

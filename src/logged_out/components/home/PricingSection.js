@@ -49,7 +49,7 @@ function PricingSection(props) {
   const { width, classes } = props;
   return (
     <div className="lg-p-top" style={{ backgroundColor: "#000000" }}>
-      <Typography variant="h3" align="center" className="lg-mg-bottom" color={{ textColor: "#000000" }}>
+      <Typography variant="h3" align="center" className="lg-mg-bottom" color="Primary">
         Pricing
       </Typography>
       <div className={classNames("container-fluid", classes.containerFix)}>
@@ -70,12 +70,12 @@ function PricingSection(props) {
               title="Starter"
               pricing={
                 <span>
-                  £14.99
-                  <Typography display="inline"> / month</Typography>
+                  <Typography display="inline" color="primary"> £14.99 / month</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
-            />
+               features={[<Typography display="inline" color="primary">"Feature 1"</Typography>, 
+                          <Typography display="inline" color="primary">"Feature 2"</Typography>, 
+                          <Typography display="inline" color="primary">"Feature 3"</Typography>]} />
           </Grid>
           <Grid
             item
@@ -92,7 +92,7 @@ function PricingSection(props) {
               pricing={
                 <span>
                   £29.99
-                  <Typography display="inline"> / month</Typography>
+                  <Typography display="inline" color="primary"> / month</Typography>
                 </span>
               }
               features={["Feature 1", "Feature 2", "Feature 3"]}
@@ -112,7 +112,7 @@ function PricingSection(props) {
               pricing={
                 <span>
                   £49.99
-                  <Typography display="inline"> / month</Typography>
+                  <Typography display="inline" color="primary"> / month</Typography>
                 </span>
               }
               features={["Feature 1", "Feature 2", "Feature 3"]}
@@ -132,7 +132,7 @@ function PricingSection(props) {
               pricing={
                 <span>
                   £99.99
-                  <Typography display="inline"> / month</Typography>
+                  <Typography display="inline" color="primary"> / month</Typography>
                 </span>
               }
               features={["Feature 1", "Feature 2", "Feature 3"]}
