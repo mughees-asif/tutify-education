@@ -12,7 +12,7 @@ import {
   withWidth,
   isWidthUp
 } from "@material-ui/core";
-import headerImage from "../../dummy_data/images/headerImage.jpg";
+import headerImage from "../../dummy_data/images/headerImage.png";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 const styles = theme => ({
@@ -132,7 +132,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            The future of online tuition
+                            The Future of Online Tuition
                           </Typography>
                         </Box>
                         <Button
@@ -142,7 +142,7 @@ function HeadSection(props) {
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
                           // Connect to Login
-                          // href="#features"
+                          href="/#features"
                         >
                           Learn more!
                         </Button>

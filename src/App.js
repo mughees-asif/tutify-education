@@ -16,7 +16,7 @@ function App() {
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
         <GlobalStyles />
-        <Pace color={theme.palette.primary.light} />
+        <Pace color={theme.palette.primary.dark} />
         <Suspense fallback={<Fragment />}>
           <Switch>
             <Route path="/c">
