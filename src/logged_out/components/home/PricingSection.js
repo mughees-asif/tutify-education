@@ -70,12 +70,13 @@ function PricingSection(props) {
               title="Starter"
               pricing={
                 <span>
-                  <Typography display="inline" color="primary"> £14.99 / month</Typography>
+                  <Typography display="inline" style={{ color: "white" }}> £14.99 </Typography>
+                  <Typography display="inline" color="primary"> / month</Typography>
                 </span>
               }
-               features={[<Typography display="inline" color="primary">"Feature 1"</Typography>, 
-                          <Typography display="inline" color="primary">"Feature 2"</Typography>, 
-                          <Typography display="inline" color="primary">"Feature 3"</Typography>]} />
+               features={[<Typography display="inline" style={{ color: "white" }}> One-to-one </Typography>, 
+                          <Typography display="inline" style={{ color: "white" }}>  </Typography>, 
+                          <Typography display="inline" style={{ color: "white" }}>  </Typography>]} />
           </Grid>
           <Grid
             item
