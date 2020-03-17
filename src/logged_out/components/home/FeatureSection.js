@@ -43,7 +43,6 @@ const features = [
     headline: "Real-time collaboration",
     text:
       "Enabled with notes sharing and saving options; downloadable in different formats.",
-      textColor: "white",
     icon: <HeadsetMicIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "200"
@@ -55,7 +54,7 @@ function FeatureSection(props) {
   return (
     <div name="features" style={{ backgroundColor: "#000000" }}>
       <div className="container-fluid lg-p-top">
-        <Typography variant="h2" align="center" className="lg-mg-bottom" color="error">
+        <Typography variant="h2" align="center" className="lg-mg-bottom" style={{color: "white"}}>
           Features
         </Typography>
         <div className="container-fluid">

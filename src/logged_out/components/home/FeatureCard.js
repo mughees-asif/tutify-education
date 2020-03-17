@@ -46,7 +46,7 @@ function FeatureCard(props) {
         style={{
           color: "#000000",
           backgroundColor: shadeColor(color, 0.5),
-          fill: color,
+          fill: "green",
           align: "center"
         }}
       >
