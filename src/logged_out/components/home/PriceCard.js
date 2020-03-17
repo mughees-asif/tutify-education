@@ -10,7 +10,7 @@ const styles = theme => ({
     paddingLeft: theme.spacing(4),
     paddingRight: theme.spacing(4),
     marginTop: theme.spacing(2),
-    border: `4px solid ${theme.palette.success.dark}`,
+    border: `5px solid ${theme.palette.success.dark}`,
     borderRadius: theme.shape.borderRadius * 2
   },
   cardHightlighted: {
@@ -62,7 +62,8 @@ function PriceCard(props) {
           <Box ml={1}>
             <Typography
               className={highlighted ? "text-white" : null}
-              variant={highlighted ? "h6" : "body1"} style={{color: "white"}}
+              variant={highlighted ? "h6" : "body1"} 
+              style={{color: "white"}}
             >
               {feature}
             </Typography>

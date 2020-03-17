@@ -49,7 +49,7 @@ function PricingSection(props) {
   const { width, classes } = props;
   return (
     <div className="lg-p-top" style={{ backgroundColor: "#000000" }}>
-      <Typography variant="h3" align="center" className="lg-mg-bottom" color="Primary">
+      <Typography variant="h3" align="center" className="lg-mg-bottom" style={{ color: "white" }}>
         Pricing
       </Typography>
       <div className={classNames("container-fluid", classes.containerFix)}>
@@ -60,12 +60,14 @@ function PricingSection(props) {
         >
           <Grid
             item
+            align = "center"
             xs={12}
             sm={6}
             lg={3}
             className={classes.cardWrapper}
             data-aos="zoom-in-up"
           >
+          // make price cards interactable 
             <PriceCard
               title="Starter"
               pricing={
@@ -75,8 +77,8 @@ function PricingSection(props) {
                 </span>
               }
                features={[<Typography display="inline" style={{ color: "white" }}> One-to-one </Typography>, 
-                          <Typography display="inline" style={{ color: "white" }}>  </Typography>, 
-                          <Typography display="inline" style={{ color: "white" }}>  </Typography>]} />
+                          <Typography display="inline" style={{ color: "white" }}> Save notes/lectures </Typography>, 
+                          <Typography display="inline" style={{ color: "white" }}> Access anywhere </Typography>]} />
           </Grid>
           <Grid
             item
@@ -96,7 +98,9 @@ function PricingSection(props) {
                   <Typography display="inline" color="primary"> / month</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={[<Typography display="blcok" style={{ color: "white" }}> Starter included </Typography>, 
+                          <Typography display="inline" style={{ color: "white" }}> Classroom mode </Typography>, 
+                          <Typography display="inline" style={{ color: "white" }}> Track progress </Typography>]} />
             />
           </Grid>
           <Grid
@@ -112,32 +116,13 @@ function PricingSection(props) {
               title="Business"
               pricing={
                 <span>
-                  £49.99
+                  <Typography display="inline" style={{color: "white"}}> £49.99 </Typography>
                   <Typography display="inline" color="primary"> / month</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
-            />
-          </Grid>
-          <Grid
-            item
-            className={classes.cardWrapper}
-            xs={12}
-            sm={6}
-            lg={3}
-            data-aos="zoom-in-up"
-            data-aos-delay={isWidthUp("md", width) ? "600" : "200"}
-          >
-            <PriceCard
-              title="Tycoon"
-              pricing={
-                <span>
-                  £99.99
-                  <Typography display="inline" color="primary"> / month</Typography>
-                </span>
-              }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
-            />
+              features={[<Typography display="inline" style={{ color: "white" }}> Primary included </Typography>, 
+                          <Typography display="inline" style={{ color: "white" }}> Advanced Analytics; real-time information </Typography>,           
+                          <Typography display="inline" style={{ color: "white" }}> See where to improve </Typography> ]} />
           </Grid>
         </Grid>
       </div>
@@ -145,9 +130,9 @@ function PricingSection(props) {
   );
 }
 
-PricingSection.propTypes = {
-  width: PropTypes.string.isRequired
-};
+// PricingSection.propTypes = {
+//   width: PropTypes.string.isRequired
+// };
 
 export default withStyles(styles, { withTheme: true })(
   withWidth()(PricingSection)
