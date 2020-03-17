@@ -10,6 +10,7 @@ const warningLight = "rgba(253, 200, 69, .3)";
 const warningMain = "rgba(253, 200, 69, .5)";
 const warningDark = "rgba(253, 200, 69, .7)";
 
+
 // border
 const borderWidth = 0.5;
 const borderColor = "rgba(0, 0, 0, 0.12)";

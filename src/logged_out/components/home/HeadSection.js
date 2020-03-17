@@ -109,9 +109,10 @@ function HeadSection(props) {
               className={classes.card}
               data-aos-delay="200"
               data-aos="zoom-in"
+              style={{backgroundColor: "black"}}
             >
               <div className={classNames(classes.containerFix, "container")}>
-                <Box justifyContent="space-between" className="row">
+                <Box justifyContent="space-between" className="row" style={{color: "black"}}>
                   <Grid item xs={12} md={5}>
                     <Box
                       display="flex"
@@ -122,6 +123,7 @@ function HeadSection(props) {
                       <Box mb={4}>
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                          style={{color: "white"}}
                         >
                           Tutify 
                         </Typography>
@@ -130,7 +132,7 @@ function HeadSection(props) {
                         <Box mb={2}>
                           <Typography
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
-                            color="textSecondary"
+                            style={{color: "white"}}
                           >
                             The Future of Online Tuition
                           </Typography>

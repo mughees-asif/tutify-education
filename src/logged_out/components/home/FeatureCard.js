@@ -46,7 +46,7 @@ function FeatureCard(props) {
         style={{
           color: "#000000",
           backgroundColor: shadeColor(color, 0.5),
-          fill: "green",
+          fill: "color",
           align: "center"
         }}
       >
@@ -55,7 +55,7 @@ function FeatureCard(props) {
       <Typography variant="h5" color="primary">
         {headline}
       </Typography>
-      <Typography variant="body1" color="primary">
+      <Typography variant="body1" style={{color: "white"}}>
         {text}
       </Typography>
     </Fragment>
