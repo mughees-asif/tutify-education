@@ -19,7 +19,7 @@ import ColoredButton from "../../../shared/components/ColoredButton";
 
 const styles = theme => ({
   footerInner: {
-    backgroundColor: theme.palette.common.darkBlack,
+    backgroundColor: "#9ccc65",
     paddingTop: theme.spacing(8),
     paddingLeft: theme.spacing(2),
     paddingRight: theme.spacing(2),
@@ -40,7 +40,7 @@ const styles = theme => ({
   brandText: {
     fontFamily: "'Baloo Bhaijaan', cursive",
     fontWeight: 400,
-    color: theme.palette.common.white
+    color: theme.palette.common.black
   },
   footerLinks: {
     marginTop: theme.spacing(2.5),
@@ -140,7 +140,7 @@ function Footer(props) {
     <footer className="lg-p-top">
       <WaveBorder
         upperColor="#000000"
-        lowerColor= theme.palette.
+        lowerColor= "#9ccc65"
         animationNegativeDelay={4}
       />
       <div className={classes.footerInner}>
@@ -148,11 +148,8 @@ function Footer(props) {
           <Grid item xs={12} md={6} lg={4}>
             <form>
               <Box display="flex" flexDirection="column">
-                <Box mb={1}>
-
-                </Box>
                 <ColoredButton
-                  color={theme.palette.common.white}
+                  color={theme.palette.common.black}
                   variant="outlined"
                   type="submit"
                   href="mailto:tutify.tuition@gmail.com"
@@ -182,7 +179,7 @@ function Footer(props) {
                         flexDirection="column"
                         justifyContent="center"
                       >
-                        <Typography variant="h6" className="text-white">
+                        <Typography variant="h6">
                           {info.description}
                         </Typography>
                       </Box>
@@ -193,10 +190,10 @@ function Footer(props) {
             </Grid>
           </Hidden>
           <Grid item xs={12} md={6} lg={4}>
-            <Typography variant="h6" paragraph className="text-white">
+            <Typography variant="h6" paragraph className="text-black">
               About the Company
             </Typography>
-            <Typography style={{ color: "#8f9296" }} paragraph>
+            <Typography style={{color: "black"}} paragraph>
               Combining Note Taking, Tutoring and Machine Learning to produce accessible education. 
             </Typography>
             <Box display="flex">
