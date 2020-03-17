@@ -52,7 +52,7 @@ function PricingSection(props) {
       <Typography variant="h3" align="center" className="lg-mg-bottom" style={{ color: "white" }}>
         Pricing
       </Typography>
-      <div className={classNames("container-fluid", classes.containerFix)}>
+      <div className={classNames("container-fluid", classes.containerFix)} style={{ backgroundColor: "#000000" }}>
         <Grid
           container
           spacing={calculateSpacing(width)}
@@ -60,7 +60,6 @@ function PricingSection(props) {
         >
           <Grid
             item
-            align = "center"
             xs={12}
             sm={6}
             lg={3}
@@ -130,9 +129,9 @@ function PricingSection(props) {
   );
 }
 
-// PricingSection.propTypes = {
-//   width: PropTypes.string.isRequired
-// };
+PricingSection.propTypes = {
+  width: PropTypes.string.isRequired
+};
 
 export default withStyles(styles, { withTheme: true })(
   withWidth()(PricingSection)

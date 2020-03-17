@@ -76,13 +76,13 @@ const styles = theme => ({
 });
 
 const infos = [
-  {
-    icon: <PhoneIcon />,
-    description: "+1 555 123456"
-  },
+   {
+     icon: <PhoneIcon />,
+     description: "-------------"
+   },
   {
     icon: <MailIcon />,
-    description: "support@company.com"
+    description: "tutify.tuition@gmail.com"
   }
 ];
 
@@ -140,7 +140,7 @@ function Footer(props) {
     <footer className="lg-p-top">
       <WaveBorder
         upperColor="#000000"
-        lowerColor={theme.palette.common.darkBlack}
+        lowerColor= theme.palette.
         animationNegativeDelay={4}
       />
       <div className={classes.footerInner}>
@@ -149,20 +149,13 @@ function Footer(props) {
             <form>
               <Box display="flex" flexDirection="column">
                 <Box mb={1}>
-                  <TextField
-                    variant="outlined"
-                    multiline
-                    placeholder="Get in touch with us"
-                    rows={4}
-                    InputProps={{ className: classes.whiteBg }}
-                    fullWidth
-                    required
-                  />
+
                 </Box>
                 <ColoredButton
                   color={theme.palette.common.white}
                   variant="outlined"
                   type="submit"
+                  href="mailto:tutify.tuition@gmail.com"
                 >
                   Send Message
                 </ColoredButton>
@@ -204,8 +197,7 @@ function Footer(props) {
               About the Company
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-              euismod convallis velit, eu auctor lacus vehicula sit amet.
+              Combining Note Taking, Tutoring and Machine Learning to produce accessible education. 
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (
