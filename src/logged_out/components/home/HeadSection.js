@@ -142,7 +142,7 @@ function HeadSection(props) {
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
                           // Connect to Login
-                          href="/#features"
+                          href="/#FeatureSection"
                         >
                           Learn more!
                         </Button>
