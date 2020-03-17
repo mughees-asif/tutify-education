@@ -55,7 +55,7 @@ function FeatureSection(props) {
   return (
     <div name="features" style={{ backgroundColor: "#000000" }}>
       <div className="container-fluid lg-p-top">
-        <Typography variant="h2" align="center" className="lg-mg-bottom" color="Primary">
+        <Typography variant="h2" align="center" className="lg-mg-bottom" color="error">
           Features
         </Typography>
         <div className="container-fluid">
