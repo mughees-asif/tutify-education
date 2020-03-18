@@ -2,7 +2,7 @@
   "name": "tutify_education",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://mughees-asif.github.io/tutify_education",
+  "homepage": "http://mughees-asif.github.io/tutify-education",
   "description": "Tutify",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
