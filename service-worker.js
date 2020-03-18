@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tutrify_v2/precache-manifest.cae4252f1b89a1e6c8ad9c8cde2e8db9.js"
+  "/tutrify_v2/precache-manifest.44d7f1d265a576c751cef5fff6b06d35.js"
 );
 
 self.addEventListener('message', (event) => {
