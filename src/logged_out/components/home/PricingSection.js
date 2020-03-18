@@ -66,7 +66,7 @@ function PricingSection(props) {
             className={classes.cardWrapper}
             data-aos="zoom-in-up"
           >
-          // make price cards interactable 
+          // make price cards interactive 
             <PriceCard
               title="Starter"
               pricing={

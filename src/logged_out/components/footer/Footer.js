@@ -8,8 +8,7 @@ import {
   Hidden,
   withStyles,
   withWidth,
-  isWidthUp,
-  TextField
+  isWidthUp
 } from "@material-ui/core";
 import PhoneIcon from "@material-ui/icons/Phone";
 import MailIcon from "@material-ui/icons/Mail";
@@ -137,7 +136,7 @@ const socialIcons = [
 function Footer(props) {
   const { classes, theme, width } = props;
   return (
-    <footer className="lg-p-top">
+    <footer className="lg-p-bottom">
       <WaveBorder
         upperColor="#000000"
         lowerColor= "#9ccc65"
