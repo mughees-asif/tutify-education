@@ -12,7 +12,7 @@ import {
   withWidth,
   isWidthUp
 } from "@material-ui/core";
-import headerImage from "../../dummy_data/images/headerImage.png";
+import headerImage from "../../dummy_data/images/headerImage.jpg";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 const styles = theme => ({
@@ -143,8 +143,12 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          // Connect to Login
-                          href="/#FeatureSection"
+
+                          // -------------------------------------------------- //
+                          // Connect button to features section
+                          // href="/#FeatureSection"
+                          // -------------------------------------------------- //
+
                         >
                           Learn more!
                         </Button>
