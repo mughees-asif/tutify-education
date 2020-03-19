@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34a486f0338dcdec4c4ace5c917dd6ce",
+    "revision": "1db7fdd7b758aebad5b30032614203e7",
     "url": "/tutify-education/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tutify-education/static/js/1.6a326bc4.chunk.js"
   },
   {
-    "revision": "65c396b36a65e69168dd",
-    "url": "/tutify-education/static/js/10.94e6490c.chunk.js"
+    "revision": "1f0dc2909463df94c11a",
+    "url": "/tutify-education/static/js/10.aa897c49.chunk.js"
   },
   {
     "revision": "cfe15d2b16cc18f71551",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tutify-education/static/js/main.a4348dd2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "644041ea66cac8724ffb",
-    "url": "/tutify-education/static/js/runtime-main.f97fbf1f.js"
+    "revision": "98101711ec2da3052148",
+    "url": "/tutify-education/static/js/runtime-main.0b9ecb2f.js"
   },
   {
     "revision": "2b466f14430eac13337c9452ff05635c",
