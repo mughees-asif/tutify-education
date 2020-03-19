@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tutify-education/precache-manifest.55cebb14f3454b6a6cc0947abb0e959e.js"
+  "/tutify-education/precache-manifest.9dc4a0c88d66d7720a88ba07110bec4d.js"
 );
 
 self.addEventListener('message', (event) => {

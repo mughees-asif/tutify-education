@@ -6,8 +6,8 @@
     "static/js/1.6a326bc4.chunk.js.map": "/tutify-education/static/js/1.6a326bc4.chunk.js.map",
     "main.js": "/tutify-education/static/js/main.a4348dd2.chunk.js",
     "main.js.map": "/tutify-education/static/js/main.a4348dd2.chunk.js.map",
-    "runtime-main.js": "/tutify-education/static/js/runtime-main.f37d5c90.js",
-    "runtime-main.js.map": "/tutify-education/static/js/runtime-main.f37d5c90.js.map",
+    "runtime-main.js": "/tutify-education/static/js/runtime-main.f97fbf1f.js",
+    "runtime-main.js.map": "/tutify-education/static/js/runtime-main.f97fbf1f.js.map",
     "static/js/4.4899fe8a.chunk.js": "/tutify-education/static/js/4.4899fe8a.chunk.js",
     "static/js/4.4899fe8a.chunk.js.map": "/tutify-education/static/js/4.4899fe8a.chunk.js.map",
     "static/css/5.b43cacbf.chunk.css": "/tutify-education/static/css/5.b43cacbf.chunk.css",
@@ -22,8 +22,8 @@
     "static/js/8.57d96bcd.chunk.js.map": "/tutify-education/static/js/8.57d96bcd.chunk.js.map",
     "static/js/9.7be4338f.chunk.js": "/tutify-education/static/js/9.7be4338f.chunk.js",
     "static/js/9.7be4338f.chunk.js.map": "/tutify-education/static/js/9.7be4338f.chunk.js.map",
-    "static/js/10.2959c6ea.chunk.js": "/tutify-education/static/js/10.2959c6ea.chunk.js",
-    "static/js/10.2959c6ea.chunk.js.map": "/tutify-education/static/js/10.2959c6ea.chunk.js.map",
+    "static/js/10.94e6490c.chunk.js": "/tutify-education/static/js/10.94e6490c.chunk.js",
+    "static/js/10.94e6490c.chunk.js.map": "/tutify-education/static/js/10.94e6490c.chunk.js.map",
     "static/js/11.b00f22be.chunk.js": "/tutify-education/static/js/11.b00f22be.chunk.js",
     "static/js/11.b00f22be.chunk.js.map": "/tutify-education/static/js/11.b00f22be.chunk.js.map",
     "static/js/12.2161e9aa.chunk.js": "/tutify-education/static/js/12.2161e9aa.chunk.js",
@@ -45,7 +45,7 @@
     "static/js/20.b92bd5c3.chunk.js": "/tutify-education/static/js/20.b92bd5c3.chunk.js",
     "static/js/20.b92bd5c3.chunk.js.map": "/tutify-education/static/js/20.b92bd5c3.chunk.js.map",
     "index.html": "/tutify-education/index.html",
-    "precache-manifest.55cebb14f3454b6a6cc0947abb0e959e.js": "/tutify-education/precache-manifest.55cebb14f3454b6a6cc0947abb0e959e.js",
+    "precache-manifest.9dc4a0c88d66d7720a88ba07110bec4d.js": "/tutify-education/precache-manifest.9dc4a0c88d66d7720a88ba07110bec4d.js",
     "service-worker.js": "/tutify-education/service-worker.js",
     "static/css/5.b43cacbf.chunk.css.map": "/tutify-education/static/css/5.b43cacbf.chunk.css.map",
     "static/css/8.4707e12a.chunk.css.map": "/tutify-education/static/css/8.4707e12a.chunk.css.map",
@@ -62,6 +62,7 @@
     "static/media/blogPost4.jpg": "/tutify-education/static/media/blogPost4.29e641ea.jpg",
     "static/media/blogPost5.jpg": "/tutify-education/static/media/blogPost5.eed51f55.jpg",
     "static/media/blogPost6.jpg": "/tutify-education/static/media/blogPost6.070efa17.jpg",
+    "static/media/headerImage.jpg": "/tutify-education/static/media/headerImage.0db37e2b.jpg",
     "static/media/image1.jpg": "/tutify-education/static/media/image1.abf31b4b.jpg",
     "static/media/image10.jpg": "/tutify-education/static/media/image10.abf31b4b.jpg",
     "static/media/image2.jpg": "/tutify-education/static/media/image2.abf31b4b.jpg",
@@ -75,7 +76,7 @@
     "static/media/profilePicture.jpg": "/tutify-education/static/media/profilePicture.08d42ee2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f37d5c90.js",
+    "static/js/runtime-main.f97fbf1f.js",
     "static/js/6.775c71b7.chunk.js",
     "static/js/main.a4348dd2.chunk.js"
   ]
