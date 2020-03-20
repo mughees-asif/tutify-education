@@ -12,7 +12,7 @@ import {
   withWidth,
   isWidthUp
 } from "@material-ui/core";
-import headerImage from "../../dummy_data/images/headerImage.jpg";
+import headerImage from "../../dummy_data/images/headerImage.png";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 const styles = theme => ({
